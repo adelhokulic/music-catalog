@@ -1,6 +1,6 @@
 const GenreFilter = ({ genres, onGenreChange }) => {
 	return (
-		<select onChange={(e) => onGenreChange(e.target.value)}>
+		<select className="album-controls__field album-controls__genre" onChange={(e) => onGenreChange(e.target.value)}>
 			<option value="">All</option>
 			{genres.map((genre) => {
 				return (

@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import albums from "../albums.json";
 import AlbumList from "../components/AlbumList";
 const ArtistPage = () => {
@@ -8,7 +8,10 @@ const ArtistPage = () => {
 		.sort((a, b) => a.year - b.year);
 	return (
 		<>
-			<h1>{params.name}</h1>
+			<Link className="album-page__back" to="/">
+				Back to home page
+			</Link>
+			<h1 className="artist-page__title">{params.name}</h1>
 			<AlbumList albums={filteredAlbums} />
 		</>
 	);

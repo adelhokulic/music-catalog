@@ -42,8 +42,10 @@ const Home = () => {
 	};
 	return (
 		<>
-			<Search onSearch={onSearch} />
-			<GenreFilter onGenreChange={onGenreChange} genres={genres} />
+			<div className="album-controls">
+				<Search onSearch={onSearch} />
+				<GenreFilter onGenreChange={onGenreChange} genres={genres} />
+			</div>
 			<AlbumList albums={filteredAlbums} />
 		</>
 	);

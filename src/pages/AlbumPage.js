@@ -44,7 +44,14 @@ const AlbumPage = () => {
 				/>
 				<div className="album-page__info">
 					<h1 className="album-page__title">{foundAlbum.title}</h1>
-					<p className="album-page__artist">{foundAlbum.artist}</p>
+					<p className="album-page__artist">
+						<Link
+							className="album-page__artist-link"
+							to={`/artist/${foundAlbum.artist}`}
+						>
+							{foundAlbum.artist}
+						</Link>
+					</p>
 					<div className="album-page__meta">
 						<span>{foundAlbum.year}</span>
 						<span className="album-card__genre">{foundAlbum.genre}</span>

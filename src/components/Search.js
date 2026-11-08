@@ -2,7 +2,7 @@
 const Search = ({onSearch}) => {
     return (
         <>
-        <input type="text" onChange={(e) => onSearch(e.target.value)} placeholder="Type album to search"/>
+        <input className="album-controls__field album-controls__search" type="text" onChange={(e) => onSearch(e.target.value)} placeholder="Type album to search"/>
         </>
     )
 }

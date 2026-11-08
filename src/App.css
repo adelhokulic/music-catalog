@@ -196,11 +196,75 @@
 	font-variant-numeric: tabular-nums;
 }
 
+.album-page__artist-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.album-page__artist-link:hover {
+	color: #111827;
+	text-decoration: underline;
+}
+
+/* Pretraga i meni za žanr: na telefonu su jedno ispod drugog */
+.album-controls {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 16px 16px 0;
+}
+
+/* font-size od 16px sprečava da iPhone sam zumira stranicu kad se klikne na polje */
+.album-controls__field {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 12px;
+	font: inherit;
+	font-size: 16px;
+	color: #111827;
+	background: #ffffff;
+	border: 1px solid #d1d5db;
+	border-radius: 8px;
+}
+
+.album-controls__field:focus-visible {
+	outline: 2px solid #111827;
+	outline-offset: 1px;
+}
+
+.artist-page__title {
+	margin: 0;
+	padding: 24px 16px 0;
+	font-size: 28px;
+	line-height: 1.2;
+	color: #111827;
+}
+
 @media (min-width: 768px) {
 	.album-list {
 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 		gap: 24px;
 		padding: 24px;
+	}
+
+	.album-controls {
+		flex-direction: row;
+		gap: 16px;
+		padding: 24px 24px 0;
+	}
+
+	.album-controls__search {
+		flex: 1;
+	}
+
+	.album-controls__genre {
+		flex-shrink: 0;
+		width: 220px;
+	}
+
+	.artist-page__title {
+		padding: 32px 24px 0;
+		font-size: 40px;
 	}
 
 	.album-page {
