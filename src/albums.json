@@ -5,7 +5,7 @@
 		"artist": "The Beatles",
 		"year": 1969,
 		"genre": "Rock",
-		"cover": "https://placehold.co/500x500?text=Abbey+Road",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Come Together",
@@ -35,7 +35,7 @@
 		"artist": "Pink Floyd",
 		"year": 1973,
 		"genre": "Progressive Rock",
-		"cover": "https://placehold.co/500x500?text=Dark+Side+of+the+Moon",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Breathe",
@@ -65,7 +65,7 @@
 		"artist": "Michael Jackson",
 		"year": 1982,
 		"genre": "Pop",
-		"cover": "https://placehold.co/500x500?text=Thriller",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Wanna Be Startin' Somethin'",
@@ -95,7 +95,7 @@
 		"artist": "AC/DC",
 		"year": 1980,
 		"genre": "Hard Rock",
-		"cover": "https://placehold.co/500x500?text=Back+in+Black",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1e/14/58/1e145814-281a-58e0-3ab1-145f5d1af421/886443673441.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Hells Bells",
@@ -125,7 +125,7 @@
 		"artist": "Nirvana",
 		"year": 1991,
 		"genre": "Grunge",
-		"cover": "https://placehold.co/500x500?text=Nevermind",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/58/c2/7b58c21a-2b51-2bb2-e59a-9bb9b96ad8c3/00602567924166.rgb.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Smells Like Teen Spirit",
@@ -155,7 +155,7 @@
 		"artist": "Fleetwood Mac",
 		"year": 1977,
 		"genre": "Soft Rock",
-		"cover": "https://placehold.co/500x500?text=Rumours",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Second Hand News",
@@ -185,7 +185,7 @@
 		"artist": "Miles Davis",
 		"year": 1959,
 		"genre": "Jazz",
-		"cover": "https://placehold.co/500x500?text=Kind+of+Blue",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/9f/d6/mzi.vtnaewef.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "So What",
@@ -215,7 +215,7 @@
 		"artist": "Radiohead",
 		"year": 1997,
 		"genre": "Alternative Rock",
-		"cover": "https://placehold.co/500x500?text=OK+Computer",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/60/ba/0760ba0f-148c-b18f-d0ff-169ee96f3af5/634904078164.png/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Airbag",
@@ -245,7 +245,7 @@
 		"artist": "Daft Punk",
 		"year": 2013,
 		"genre": "Electronic",
-		"cover": "https://placehold.co/500x500?text=Random+Access+Memories",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Give Life Back to Music",
@@ -275,7 +275,7 @@
 		"artist": "Adele",
 		"year": 2011,
 		"genre": "Soul",
-		"cover": "https://placehold.co/500x500?text=21",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Rolling in the Deep",
@@ -305,7 +305,7 @@
 		"artist": "Eminem",
 		"year": 2000,
 		"genre": "Hip-Hop",
-		"cover": "https://placehold.co/500x500?text=Marshall+Mathers+LP",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ea/ac/03/eaac03e5-8e9d-847e-d5b9-af7dee6a970b/00606949063221.rgb.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Kill You",
@@ -335,7 +335,7 @@
 		"artist": "Linkin Park",
 		"year": 2000,
 		"genre": "Nu Metal",
-		"cover": "https://placehold.co/500x500?text=Hybrid+Theory",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Papercut",
@@ -365,7 +365,7 @@
 		"artist": "Prince",
 		"year": 1984,
 		"genre": "Funk",
-		"cover": "https://placehold.co/500x500?text=Purple+Rain",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Let's Go Crazy",
@@ -395,7 +395,7 @@
 		"artist": "Metallica",
 		"year": 1986,
 		"genre": "Thrash Metal",
-		"cover": "https://placehold.co/500x500?text=Master+of+Puppets",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Battery",
@@ -425,7 +425,7 @@
 		"artist": "Bob Marley & The Wailers",
 		"year": 1984,
 		"genre": "Reggae",
-		"cover": "https://placehold.co/500x500?text=Legend",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/c2/0d/3cc20dcc-8f4e-f060-36dd-7de52a7ec8fe/12UMGIM14712.rgb.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Is This Love",
