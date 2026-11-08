@@ -7,13 +7,13 @@ const ArtistPage = () => {
 		.filter((album) => album.artist.toLowerCase() === params.name.toLowerCase())
 		.sort((a, b) => a.year - b.year);
 	return (
-		<>
+		<main>
 			<Link className="album-page__back" to="/">
 				Back to home page
 			</Link>
 			<h1 className="artist-page__title">{params.name}</h1>
 			<AlbumList albums={filteredAlbums} />
-		</>
+		</main>
 	);
 };
 

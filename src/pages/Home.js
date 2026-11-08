@@ -19,7 +19,7 @@ const Home = () => {
 
 	const onGenreChange = (newGenre) => {
 		setGenre(newGenre);
-		filterSearch(search, newGenre)
+		filterSearch(search, newGenre);
 	};
 
 	const onSearch = (newSearch) => {
@@ -35,7 +35,12 @@ const Home = () => {
 					.includes(searchTerm.toLocaleLowerCase()) ||
 					album.artist
 						.toLocaleLowerCase()
-						.includes(searchTerm.toLocaleLowerCase())) &&
+						.includes(searchTerm.toLocaleLowerCase()) ||
+					album.songs.some((song) =>
+						song.title
+							.toLocaleLowerCase()
+							.includes(searchTerm.toLocaleLowerCase()),
+					)) &&
 				(album.genre === selectedGenre || selectedGenre === ""),
 		);
 		setFilteredAlbums(filtered);
