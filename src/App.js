@@ -1,14 +1,17 @@
 import "./App.css";
-import AlbumList from "./components/AlbumList";
-import Search from "./components/Search";
-import albums from "./albums.json";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import AlbumPage from "./pages/AlbumPage";
 
 function App() {
 	return (
-		<>
-			<Search />
-			<AlbumList albums={albums} />
-		</>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/album/:id" element={<AlbumPage />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
