@@ -1,0 +1,452 @@
+[
+	{
+		"id": 1,
+		"title": "Abbey Road",
+		"artist": "The Beatles",
+		"year": 1969,
+		"genre": "Rock",
+		"cover": "https://placehold.co/500x500?text=Abbey+Road",
+		"songs": [
+			{
+				"title": "Come Together",
+				"duration": "4:20"
+			},
+			{
+				"title": "Something",
+				"duration": "3:03"
+			},
+			{
+				"title": "Oh! Darling",
+				"duration": "3:27"
+			},
+			{
+				"title": "Octopus's Garden",
+				"duration": "2:51"
+			},
+			{
+				"title": "Here Comes the Sun",
+				"duration": "3:05"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "The Dark Side of the Moon",
+		"artist": "Pink Floyd",
+		"year": 1973,
+		"genre": "Progressive Rock",
+		"cover": "https://placehold.co/500x500?text=Dark+Side+of+the+Moon",
+		"songs": [
+			{
+				"title": "Breathe",
+				"duration": "2:49"
+			},
+			{
+				"title": "Time",
+				"duration": "6:53"
+			},
+			{
+				"title": "Money",
+				"duration": "6:22"
+			},
+			{
+				"title": "Us and Them",
+				"duration": "7:49"
+			},
+			{
+				"title": "Brain Damage",
+				"duration": "3:46"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Thriller",
+		"artist": "Michael Jackson",
+		"year": 1982,
+		"genre": "Pop",
+		"cover": "https://placehold.co/500x500?text=Thriller",
+		"songs": [
+			{
+				"title": "Wanna Be Startin' Somethin'",
+				"duration": "6:03"
+			},
+			{
+				"title": "Thriller",
+				"duration": "5:57"
+			},
+			{
+				"title": "Beat It",
+				"duration": "4:18"
+			},
+			{
+				"title": "Billie Jean",
+				"duration": "4:54"
+			},
+			{
+				"title": "Human Nature",
+				"duration": "4:06"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Back in Black",
+		"artist": "AC/DC",
+		"year": 1980,
+		"genre": "Hard Rock",
+		"cover": "https://placehold.co/500x500?text=Back+in+Black",
+		"songs": [
+			{
+				"title": "Hells Bells",
+				"duration": "5:12"
+			},
+			{
+				"title": "Shoot to Thrill",
+				"duration": "5:17"
+			},
+			{
+				"title": "Back in Black",
+				"duration": "4:15"
+			},
+			{
+				"title": "You Shook Me All Night Long",
+				"duration": "3:30"
+			},
+			{
+				"title": "Rock and Roll Ain't Noise Pollution",
+				"duration": "4:15"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Nevermind",
+		"artist": "Nirvana",
+		"year": 1991,
+		"genre": "Grunge",
+		"cover": "https://placehold.co/500x500?text=Nevermind",
+		"songs": [
+			{
+				"title": "Smells Like Teen Spirit",
+				"duration": "5:01"
+			},
+			{
+				"title": "In Bloom",
+				"duration": "4:14"
+			},
+			{
+				"title": "Come as You Are",
+				"duration": "3:39"
+			},
+			{
+				"title": "Lithium",
+				"duration": "4:17"
+			},
+			{
+				"title": "Polly",
+				"duration": "2:57"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Rumours",
+		"artist": "Fleetwood Mac",
+		"year": 1977,
+		"genre": "Soft Rock",
+		"cover": "https://placehold.co/500x500?text=Rumours",
+		"songs": [
+			{
+				"title": "Second Hand News",
+				"duration": "2:43"
+			},
+			{
+				"title": "Dreams",
+				"duration": "4:14"
+			},
+			{
+				"title": "Don't Stop",
+				"duration": "3:11"
+			},
+			{
+				"title": "Go Your Own Way",
+				"duration": "3:38"
+			},
+			{
+				"title": "The Chain",
+				"duration": "4:28"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "Kind of Blue",
+		"artist": "Miles Davis",
+		"year": 1959,
+		"genre": "Jazz",
+		"cover": "https://placehold.co/500x500?text=Kind+of+Blue",
+		"songs": [
+			{
+				"title": "So What",
+				"duration": "9:22"
+			},
+			{
+				"title": "Freddie Freeloader",
+				"duration": "9:46"
+			},
+			{
+				"title": "Blue in Green",
+				"duration": "5:37"
+			},
+			{
+				"title": "All Blues",
+				"duration": "11:33"
+			},
+			{
+				"title": "Flamenco Sketches",
+				"duration": "9:26"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"title": "OK Computer",
+		"artist": "Radiohead",
+		"year": 1997,
+		"genre": "Alternative Rock",
+		"cover": "https://placehold.co/500x500?text=OK+Computer",
+		"songs": [
+			{
+				"title": "Airbag",
+				"duration": "4:44"
+			},
+			{
+				"title": "Paranoid Android",
+				"duration": "6:23"
+			},
+			{
+				"title": "Karma Police",
+				"duration": "4:21"
+			},
+			{
+				"title": "No Surprises",
+				"duration": "3:48"
+			},
+			{
+				"title": "Lucky",
+				"duration": "4:19"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"title": "Random Access Memories",
+		"artist": "Daft Punk",
+		"year": 2013,
+		"genre": "Electronic",
+		"cover": "https://placehold.co/500x500?text=Random+Access+Memories",
+		"songs": [
+			{
+				"title": "Give Life Back to Music",
+				"duration": "4:34"
+			},
+			{
+				"title": "Instant Crush",
+				"duration": "5:37"
+			},
+			{
+				"title": "Lose Yourself to Dance",
+				"duration": "5:53"
+			},
+			{
+				"title": "Get Lucky",
+				"duration": "6:09"
+			},
+			{
+				"title": "Doin' It Right",
+				"duration": "4:11"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"title": "21",
+		"artist": "Adele",
+		"year": 2011,
+		"genre": "Soul",
+		"cover": "https://placehold.co/500x500?text=21",
+		"songs": [
+			{
+				"title": "Rolling in the Deep",
+				"duration": "3:48"
+			},
+			{
+				"title": "Rumour Has It",
+				"duration": "3:43"
+			},
+			{
+				"title": "Turning Tables",
+				"duration": "4:10"
+			},
+			{
+				"title": "Set Fire to the Rain",
+				"duration": "4:02"
+			},
+			{
+				"title": "Someone Like You",
+				"duration": "4:45"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"title": "The Marshall Mathers LP",
+		"artist": "Eminem",
+		"year": 2000,
+		"genre": "Hip-Hop",
+		"cover": "https://placehold.co/500x500?text=Marshall+Mathers+LP",
+		"songs": [
+			{
+				"title": "Kill You",
+				"duration": "4:24"
+			},
+			{
+				"title": "Stan",
+				"duration": "6:44"
+			},
+			{
+				"title": "The Way I Am",
+				"duration": "4:50"
+			},
+			{
+				"title": "The Real Slim Shady",
+				"duration": "4:44"
+			},
+			{
+				"title": "Kim",
+				"duration": "6:17"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"title": "Hybrid Theory",
+		"artist": "Linkin Park",
+		"year": 2000,
+		"genre": "Nu Metal",
+		"cover": "https://placehold.co/500x500?text=Hybrid+Theory",
+		"songs": [
+			{
+				"title": "Papercut",
+				"duration": "3:05"
+			},
+			{
+				"title": "One Step Closer",
+				"duration": "2:36"
+			},
+			{
+				"title": "Points of Authority",
+				"duration": "3:20"
+			},
+			{
+				"title": "Crawling",
+				"duration": "3:29"
+			},
+			{
+				"title": "In the End",
+				"duration": "3:36"
+			}
+		]
+	},
+	{
+		"id": 13,
+		"title": "Purple Rain",
+		"artist": "Prince",
+		"year": 1984,
+		"genre": "Funk",
+		"cover": "https://placehold.co/500x500?text=Purple+Rain",
+		"songs": [
+			{
+				"title": "Let's Go Crazy",
+				"duration": "4:39"
+			},
+			{
+				"title": "Take Me with U",
+				"duration": "3:54"
+			},
+			{
+				"title": "When Doves Cry",
+				"duration": "5:54"
+			},
+			{
+				"title": "I Would Die 4 U",
+				"duration": "2:49"
+			},
+			{
+				"title": "Purple Rain",
+				"duration": "8:41"
+			}
+		]
+	},
+	{
+		"id": 14,
+		"title": "Master of Puppets",
+		"artist": "Metallica",
+		"year": 1986,
+		"genre": "Thrash Metal",
+		"cover": "https://placehold.co/500x500?text=Master+of+Puppets",
+		"songs": [
+			{
+				"title": "Battery",
+				"duration": "5:12"
+			},
+			{
+				"title": "Master of Puppets",
+				"duration": "8:35"
+			},
+			{
+				"title": "The Thing That Should Not Be",
+				"duration": "6:36"
+			},
+			{
+				"title": "Welcome Home (Sanitarium)",
+				"duration": "6:27"
+			},
+			{
+				"title": "Orion",
+				"duration": "8:27"
+			}
+		]
+	},
+	{
+		"id": 15,
+		"title": "Legend",
+		"artist": "Bob Marley & The Wailers",
+		"year": 1984,
+		"genre": "Reggae",
+		"cover": "https://placehold.co/500x500?text=Legend",
+		"songs": [
+			{
+				"title": "Is This Love",
+				"duration": "3:52"
+			},
+			{
+				"title": "No Woman, No Cry",
+				"duration": "7:08"
+			},
+			{
+				"title": "Could You Be Loved",
+				"duration": "3:57"
+			},
+			{
+				"title": "Three Little Birds",
+				"duration": "3:00"
+			},
+			{
+				"title": "One Love / People Get Ready",
+				"duration": "2:52"
+			}
+		]
+	}
+]
