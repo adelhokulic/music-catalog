@@ -34,7 +34,7 @@
 		"title": "The Dark Side of the Moon",
 		"artist": "Pink Floyd",
 		"year": 1973,
-		"genre": "Progressive Rock",
+		"genre": "Rock",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
 		"songs": [
 			{
@@ -154,7 +154,7 @@
 		"title": "Rumours",
 		"artist": "Fleetwood Mac",
 		"year": 1977,
-		"genre": "Soft Rock",
+		"genre": "Rock",
 		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg",
 		"songs": [
 			{
