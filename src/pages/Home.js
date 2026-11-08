@@ -5,7 +5,10 @@ import { useState } from "react";
 import GenreFilter from "../components/GenreFilter";
 import Sort from "../components/Sort";
 
-const Home = () => {
+const Home = ({
+	favorites,
+	favoriteAlbums,
+}) => {
 	const [albums, setAlbums] = useState(albumsJson);
 	const [filteredAlbums, setFilteredAlbums] = useState(albumsJson);
 	const [search, setSearch] = useState("");
@@ -69,7 +72,11 @@ const Home = () => {
 				<GenreFilter onGenreChange={onGenreChange} genres={genres} />
 				<Sort onSortChange={onSortChange} />
 			</div>
-			<AlbumList albums={sortedAlbums} />
+			<AlbumList
+				favorites={favorites}
+				favoriteAlbums={favoriteAlbums}
+				albums={sortedAlbums}
+			/>
 		</>
 	);
 };

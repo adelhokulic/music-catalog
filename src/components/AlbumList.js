@@ -1,6 +1,10 @@
 import AlbumCard from "./AlbumCard";
 
-const AlbumList = ({ albums }) => {
+const AlbumList = ({
+	albums,
+	favorites,
+	favoriteAlbums,
+}) => {
 	if (albums.length === 0) {
 		return (
 			<main className="album-page album-page--missing">
@@ -11,7 +15,14 @@ const AlbumList = ({ albums }) => {
 	return (
 		<div className="album-list">
 			{albums.map((album) => {
-				return <AlbumCard key={album.id} album={album} />;
+				return (
+					<AlbumCard
+						key={album.id}
+						album={album}
+						favorites={favorites}
+						favoriteAlbums={favoriteAlbums}
+					/>
+				);
 			})}
 		</div>
 	);

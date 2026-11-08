@@ -1,7 +1,10 @@
 import { Link, useParams } from "react-router-dom";
 import albums from "../albums.json";
 import AlbumList from "../components/AlbumList";
-const ArtistPage = () => {
+const ArtistPage = ({
+	favorites,
+	favoriteAlbums,
+}) => {
 	const params = useParams();
 	const filteredAlbums = albums
 		.filter((album) => album.artist.toLowerCase() === params.name.toLowerCase())
@@ -12,7 +15,11 @@ const ArtistPage = () => {
 				Back to home page
 			</Link>
 			<h1 className="artist-page__title">{params.name}</h1>
-			<AlbumList albums={filteredAlbums} />
+			<AlbumList
+				favorites={favorites}
+				favoriteAlbums={favoriteAlbums}
+				albums={filteredAlbums}
+			/>
 		</main>
 	);
 };
