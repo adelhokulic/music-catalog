@@ -3,12 +3,14 @@ import Search from "../components/Search";
 import albumsJson from "../albums.json";
 import { useState } from "react";
 import GenreFilter from "../components/GenreFilter";
+import Sort from "../components/Sort";
 
 const Home = () => {
 	const [albums, setAlbums] = useState(albumsJson);
 	const [filteredAlbums, setFilteredAlbums] = useState(albumsJson);
 	const [search, setSearch] = useState("");
 	const [genre, setGenre] = useState("");
+	const [sort, setSort] = useState("");
 
 	const genres = [];
 	albums.forEach((album) => {
@@ -20,6 +22,10 @@ const Home = () => {
 	const onGenreChange = (newGenre) => {
 		setGenre(newGenre);
 		filterSearch(search, newGenre);
+	};
+
+	const onSortChange = (newSort) => {
+		setSort(newSort);
 	};
 
 	const onSearch = (newSearch) => {
@@ -45,13 +51,25 @@ const Home = () => {
 		);
 		setFilteredAlbums(filtered);
 	};
+
+	const sortedAlbums = [...filteredAlbums];
+
+	if (sort === "year") {
+		sortedAlbums.sort((a, b) => a.year - b.year);
+	}
+
+	if (sort === "title") {
+		sortedAlbums.sort((a, b) => a.title.localeCompare(b.title));
+	}
+
 	return (
 		<>
 			<div className="album-controls">
 				<Search onSearch={onSearch} />
 				<GenreFilter onGenreChange={onGenreChange} genres={genres} />
+				<Sort onSortChange={onSortChange} />
 			</div>
-			<AlbumList albums={filteredAlbums} />
+			<AlbumList albums={sortedAlbums} />
 		</>
 	);
 };
