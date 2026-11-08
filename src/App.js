@@ -5,10 +5,12 @@ import Home from "./pages/Home";
 import AlbumPage from "./pages/AlbumPage";
 import ArtistPage from "./pages/ArtistPage";
 import Others from "./pages/Others";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
-	const [favorites, setFavorites] = useState([]);
+	const [favorites, setFavorites] = useState(
+		JSON.parse(localStorage.getItem("favorites")) || [],
+	);
 
 	const favoriteAlbums = (id) => {
 		if (!favorites.includes(id)) {
@@ -17,6 +19,9 @@ function App() {
 			setFavorites(favorites.filter((selectedAlbum) => selectedAlbum !== id));
 		}
 	};
+	useEffect(() => {
+		localStorage.setItem("favorites", JSON.stringify(favorites));
+	}, [favorites]);
 
 	return (
 		<BrowserRouter>
