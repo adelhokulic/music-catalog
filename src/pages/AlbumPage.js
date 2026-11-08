@@ -33,6 +33,9 @@ const AlbumPage = () => {
 	});
 	return (
 		<main className="album-page">
+			<Link className="album-page__back" to="/">
+				Back to home page
+			</Link>
 			<header className="album-page__header">
 				<img
 					className="album-page__cover"

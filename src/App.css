@@ -140,8 +140,30 @@
 
 .album-page__back {
 	display: inline-block;
-	margin-top: 16px;
+	margin-top: 24px;
+	padding: 8px 14px;
+	font-size: 14px;
+	font-weight: 500;
 	color: #111827;
+	text-decoration: none;
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	transition: background 0.2s ease;
+}
+
+/* Strelica je samo ukras, pa ide kroz CSS, a tekst linka ostaje isti */
+.album-page__back::before {
+	content: "← ";
+}
+
+.album-page__back:hover {
+	background: #f3f4f6;
+}
+
+.album-page__back:focus-visible {
+	outline: 2px solid #111827;
+	outline-offset: 2px;
 }
 
 .album-page__tracks {

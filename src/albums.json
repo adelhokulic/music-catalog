@@ -35,7 +35,7 @@
 		"artist": "Pink Floyd",
 		"year": 1973,
 		"genre": "Rock",
-		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/76/b0/3e76b0e3-762b-2286-a019-8afb19cee541/886445635829.jpg/600x600bb.jpg",
 		"songs": [
 			{
 				"title": "Breathe",
@@ -446,6 +446,306 @@
 			{
 				"title": "One Love / People Get Ready",
 				"duration": "2:52"
+			}
+		]
+	},
+	{
+		"id": 16,
+		"title": "Sgt. Pepper's Lonely Hearts Club Band",
+		"artist": "The Beatles",
+		"year": 1967,
+		"genre": "Rock",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6f/79/8d/6f798d84-7475-8525-fc91-f7b51b2b5a9b/00602567725428.rgb.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Sgt. Pepper's Lonely Hearts Club Band",
+				"duration": "2:02"
+			},
+			{
+				"title": "With a Little Help from My Friends",
+				"duration": "2:44"
+			},
+			{
+				"title": "Lucy in the Sky with Diamonds",
+				"duration": "3:28"
+			},
+			{
+				"title": "Getting Better",
+				"duration": "2:47"
+			},
+			{
+				"title": "A Day in the Life",
+				"duration": "5:39"
+			}
+		]
+	},
+	{
+		"id": 17,
+		"title": "Wish You Were Here",
+		"artist": "Pink Floyd",
+		"year": 1975,
+		"genre": "Rock",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Shine On You Crazy Diamond (Parts I-V)",
+				"duration": "13:30"
+			},
+			{
+				"title": "Welcome to the Machine",
+				"duration": "7:31"
+			},
+			{
+				"title": "Have a Cigar",
+				"duration": "5:24"
+			},
+			{
+				"title": "Wish You Were Here",
+				"duration": "5:34"
+			},
+			{
+				"title": "Shine On You Crazy Diamond (Parts VI-IX)",
+				"duration": "12:31"
+			}
+		]
+	},
+	{
+		"id": 18,
+		"title": "Bad",
+		"artist": "Michael Jackson",
+		"year": 1987,
+		"genre": "Pop",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Bad",
+				"duration": "4:07"
+			},
+			{
+				"title": "The Way You Make Me Feel",
+				"duration": "4:59"
+			},
+			{
+				"title": "Man in the Mirror",
+				"duration": "5:19"
+			},
+			{
+				"title": "Dirty Diana",
+				"duration": "4:41"
+			},
+			{
+				"title": "Smooth Criminal",
+				"duration": "4:17"
+			}
+		]
+	},
+	{
+		"id": 19,
+		"title": "In Utero",
+		"artist": "Nirvana",
+		"year": 1993,
+		"genre": "Grunge",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/20/03/e32003a4-99bc-1c70-40ba-001882f35dba/00602537526840.rgb.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Serve the Servants",
+				"duration": "3:36"
+			},
+			{
+				"title": "Heart-Shaped Box",
+				"duration": "4:41"
+			},
+			{
+				"title": "Dumb",
+				"duration": "2:32"
+			},
+			{
+				"title": "Pennyroyal Tea",
+				"duration": "3:37"
+			},
+			{
+				"title": "All Apologies",
+				"duration": "3:51"
+			}
+		]
+	},
+	{
+		"id": 20,
+		"title": "The Bends",
+		"artist": "Radiohead",
+		"year": 1995,
+		"genre": "Alternative Rock",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/a9/5c/1ba95cac-b245-d386-63fb-6b857aa9dce8/634904078065.png/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Planet Telex",
+				"duration": "4:19"
+			},
+			{
+				"title": "The Bends",
+				"duration": "4:04"
+			},
+			{
+				"title": "High and Dry",
+				"duration": "4:17"
+			},
+			{
+				"title": "Fake Plastic Trees",
+				"duration": "4:50"
+			},
+			{
+				"title": "Street Spirit (Fade Out)",
+				"duration": "4:12"
+			}
+		]
+	},
+	{
+		"id": 21,
+		"title": "Metallica",
+		"artist": "Metallica",
+		"year": 1991,
+		"genre": "Heavy Metal",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9e/80/1b/9e801b06-67fa-0990-2d15-85480ad3cd46/850007452025.png/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Enter Sandman",
+				"duration": "5:31"
+			},
+			{
+				"title": "Sad but True",
+				"duration": "5:24"
+			},
+			{
+				"title": "Holier Than Thou",
+				"duration": "3:47"
+			},
+			{
+				"title": "The Unforgiven",
+				"duration": "6:26"
+			},
+			{
+				"title": "Nothing Else Matters",
+				"duration": "6:28"
+			}
+		]
+	},
+	{
+		"id": 22,
+		"title": "Discovery",
+		"artist": "Daft Punk",
+		"year": 2001,
+		"genre": "Electronic",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/4a/77/fd4a77db-0ebc-d043-41a2-f32fa1bb0fb4/dj.qrikkdwj.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "One More Time",
+				"duration": "5:20"
+			},
+			{
+				"title": "Aerodynamic",
+				"duration": "3:27"
+			},
+			{
+				"title": "Digital Love",
+				"duration": "4:58"
+			},
+			{
+				"title": "Harder, Better, Faster, Stronger",
+				"duration": "3:44"
+			},
+			{
+				"title": "Something About Us",
+				"duration": "3:51"
+			}
+		]
+	},
+	{
+		"id": 23,
+		"title": "25",
+		"artist": "Adele",
+		"year": 2015,
+		"genre": "Soul",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/08/8c/24/088c2405-2e33-801b-5c38-e967f2c01e69/191404113974.png/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Hello",
+				"duration": "4:55"
+			},
+			{
+				"title": "Send My Love (To Your New Lover)",
+				"duration": "3:43"
+			},
+			{
+				"title": "I Miss You",
+				"duration": "5:48"
+			},
+			{
+				"title": "When We Were Young",
+				"duration": "4:50"
+			},
+			{
+				"title": "Water Under the Bridge",
+				"duration": "4:00"
+			}
+		]
+	},
+	{
+		"id": 24,
+		"title": "Meteora",
+		"artist": "Linkin Park",
+		"year": 2003,
+		"genre": "Nu Metal",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "Somewhere I Belong",
+				"duration": "3:33"
+			},
+			{
+				"title": "Lying from You",
+				"duration": "2:55"
+			},
+			{
+				"title": "Faint",
+				"duration": "2:42"
+			},
+			{
+				"title": "Breaking the Habit",
+				"duration": "3:16"
+			},
+			{
+				"title": "Numb",
+				"duration": "3:05"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"title": "The Eminem Show",
+		"artist": "Eminem",
+		"year": 2002,
+		"genre": "Hip-Hop",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b4/13/e9/b413e91d-40aa-a1a8-b8e3-2bacc3b3e222/00606949329020.rgb.jpg/600x600bb.jpg",
+		"songs": [
+			{
+				"title": "White America",
+				"duration": "5:24"
+			},
+			{
+				"title": "Business",
+				"duration": "4:11"
+			},
+			{
+				"title": "Cleanin' Out My Closet",
+				"duration": "4:57"
+			},
+			{
+				"title": "Without Me",
+				"duration": "4:50"
+			},
+			{
+				"title": "Sing for the Moment",
+				"duration": "5:39"
 			}
 		]
 	}
