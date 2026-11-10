@@ -40,7 +40,7 @@ const AlbumPage = () => {
 				<img
 					className="album-page__cover"
 					src={foundAlbum.cover}
-					alt={`Omot albuma ${foundAlbum.title}`}
+					alt={`${foundAlbum.title}`}
 				/>
 				<div className="album-page__info">
 					<h1 className="album-page__title">{foundAlbum.title}</h1>

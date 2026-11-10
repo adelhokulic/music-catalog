@@ -12,7 +12,7 @@ const AlbumCard = ({
 					<img
 						className="album-card__cover"
 						src={album.cover}
-						alt={`Omot albuma ${album.title}`}
+						alt={`${album.title}`}
 					/>
 					<div className="album-card__body">
 						<h2 className="album-card__title">{album.title}</h2>
