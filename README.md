@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Music Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive single-page application for browsing a curated collection of music albums. Search across albums, artists and individual songs, narrow the results by genre, explore each artist's discography, and keep a list of favorites that survives page reloads.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-Grid_%26_Flexbox-1572B6?logo=css&logoColor=white)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Unified search** – a single input matches album titles, artist names and song titles as you type.
+- **Genre filter** – the genre list is generated from the data, and it combines with the active search.
+- **Sorting** – order the results by release year or alphabetically by title.
+- **Favorites** – mark albums with a star; the selection is saved in `localStorage` and restored on the next visit.
+- **Album pages** – cover art, album details, the full tracklist and an automatically calculated total running time.
+- **Artist pages** – every album by an artist, in chronological order.
+- **Graceful fallbacks** – dedicated states for empty search results, unknown albums and unknown routes.
+- **Responsive layout** – a mobile-first design that expands into a multi-column grid on larger screens.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The catalog contains **25 albums**, **15 artists**, **14 genres** and **125 songs**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+| Area | Technology |
+| --- | --- |
+| UI | React 19 (function components and hooks) |
+| Routing | React Router 7 |
+| Styling | CSS with Grid, Flexbox and BEM-style class names |
+| Persistence | Browser `localStorage` |
+| Data | Local JSON file |
+| Tooling | Create React App |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+You need [Node.js](https://nodejs.org/) with npm installed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/adelhokulic/music-catalog.git
+cd music-catalog
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app runs at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To create an optimized production build in the `build` folder:
 
-### `npm run eject`
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Routes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Path | Page |
+| --- | --- |
+| `/` | Catalog with search, genre filter and sorting |
+| `/album/:id` | Album details and tracklist |
+| `/artist/:name` | All albums by one artist |
+| `*` | "Page not found" screen |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```text
+src/
+├── components/
+│   ├── AlbumCard.js      # Single album with a favorite toggle
+│   ├── AlbumList.js      # Album grid and empty state
+│   ├── GenreFilter.js    # Genre dropdown
+│   ├── Search.js         # Search input
+│   └── Sort.js           # Sort dropdown
+├── pages/
+│   ├── Home.js           # Catalog, filtering and sorting logic
+│   ├── AlbumPage.js      # Album details and running time
+│   ├── ArtistPage.js     # Artist discography
+│   └── Others.js         # Page not found
+├── albums.json           # Catalog data
+├── App.js                # Routes and favorites state
+└── App.css               # Application styles
+```
 
-## Learn More
+## Implementation Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Shared favorites state** – favorites live in `App` and are passed down to the catalog and artist pages, so both always show the same selection. A `useEffect` writes every change to `localStorage`.
+- **Combined filtering** – search and genre go through one filter function, so each change takes the other active criterion into account.
+- **Non-mutating sort** – sorting works on a copy of the filtered list, which leaves the original order available for the default view.
+- **Calculated running time** – track durations are stored as `mm:ss` strings, converted to seconds, summed and formatted back for display.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Adel Hokulic** – [GitHub](https://github.com/adelhokulic)
