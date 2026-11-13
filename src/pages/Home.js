@@ -1,16 +1,16 @@
 import AlbumList from "../components/AlbumList";
 import Search from "../components/Search";
-import albumsJson from "../albums.json";
 import { useState } from "react";
 import GenreFilter from "../components/GenreFilter";
 import Sort from "../components/Sort";
+import albums from "../albums.json";
+
 
 const Home = ({
 	favorites,
 	favoriteAlbums,
 }) => {
-	const [albums, setAlbums] = useState(albumsJson);
-	const [filteredAlbums, setFilteredAlbums] = useState(albumsJson);
+	const [filteredAlbums, setFilteredAlbums] = useState(albums);
 	const [search, setSearch] = useState("");
 	const [genre, setGenre] = useState("");
 	const [sort, setSort] = useState("");
